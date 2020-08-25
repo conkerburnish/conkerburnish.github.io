@@ -26,20 +26,22 @@
   <!-- Start your project here-->
 <header>
 <div class="container">
-<nav class="nav navbar-nav">
-<ul class="nav nav-pills" role="tablist" >
-  <li class="active">
-    <a href="#cyberlinks" role="tab" data-toggle="tab">Cyberlinks</a>
+<nav>
+  <ul class="nav nav-tabs" id="myTab" role="tablist" >
+    <li class="nav-item">
+      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#cyberlinks" aria-controls="home"
+	  aria-selected="true">Cyberlinks</a>
   </li>
-  <li>
-    <a href="#quantumlinks" role="tab" data-toggle="tab">Quantumlinks</a>
+    <li class="nav-item">
+      <a class="nav-link" id="quantum-tab" data-toggle="tab" href="#quantumlinks" aria-controls="quantumlinks"
+	  aria-selected="true">Quantumlinks</a>
   </li>
 </ul>
 </nav>
 </div>
 </header>
-  <div class="tab-content container">
-  <div class="tab-pane active" id="cyberlinks">
+  <div class="tab-content" id="myTabContent">
+	<div class="tab-pane fade show active" id="cyberlinks" role="tabpanel" aria-labelledby="cyberlinks-tab">
   <h2>Cyberlinks</h2>
   <DT><H3>Malware</H3>
         <DL><p>
@@ -378,8 +380,11 @@
     </DL><p>
 				
   </div>
-  <div class="tab-pane" id="quantumlinks">
+  <div class="tab-pane fade show active" id="quantumlinks" role="tabpanel" aria-labelledby="quantumlinks-tab">
   <h2>Quantumlinks</h2>
+  <p>
+  Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
+  </p>
   </div>
   </div>
   <!-- End your project here-->
